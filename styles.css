@@ -294,7 +294,7 @@ body {
     position: relative;
     overflow: hidden;
     border-radius: 20px;
-    height: 400px;
+    height: 300px;
 }
 
 .photo-container img {
@@ -487,7 +487,8 @@ body {
     }
 
     .photo-container {
-        height: 250px;
+        height: 600px;
+        width: 400px;
     }
 
     .message-card {
@@ -518,4 +519,20 @@ body {
     .section-title {
         margin-bottom: 40px;
     }
+
+     .photo-container {
+        height: 400px;
+        width: 400px;
+    }
+
+    .photo-container img {
+    width: 70%;
+    height: 90%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+.photo-card{
+ height: 300px;
+}
+
 }
